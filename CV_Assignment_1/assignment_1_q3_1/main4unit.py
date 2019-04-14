@@ -215,7 +215,6 @@ def main():
     print("resource path: " + args.image + " , "
           + "output path: " + args.output + " , "
           + "method: " + args.method4_hist_eq + "_" + args.method4cdf)
-    # Obtain the kernel for the convolution
 
     # Obtain the image to be processed
     original_img = cv2.imread(args.image)
@@ -254,10 +253,12 @@ def main():
             hist_eq_image = execute_histogram_equalization_RGB(img_np, [0, 0])
             cv2.imwrite("%s/Lenna_%s.jpg" % (args.output, "rgb"+"_"+"common"), hist_eq_image)
 
+    print("Histogram equalization succeeds! The result is stored in {}".format(args.output))
+
     # Display the result and comparison between two images.
     # The code below should be executed with GUI.
 
-    # hist_eq_image = cv2.imread("%s/Lenna-%s.jpg" % (args.output, "rgb"+"_"+"common" ))
+    # hist_eq_image = cv2.imread("%s/Lenna-%s.jpg" % (args.output, args.method4_hist_eq+"_"+args.method4cdf ))
     # cv2.imshow('input_image', original_img)
     # cv2.imshow('hist_eq_image', hist_eq_image)
     # cv2.waitKey(0)
