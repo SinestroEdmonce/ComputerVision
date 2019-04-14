@@ -253,8 +253,8 @@ def adaptively_batch_histogram_equalization(img0, cumulative_func, batch):
                 t = (idx1 - (batch_idx1 * batch_height + batch_height / 2)) / batch_height
 
                 img0[idx1][idx2] = (1 - s) * (1 - t) * cumulative_func[batch_idx1][batch_idx2][index] \
-                                   + s * (1 - t) * cumulative_func[batch_idx1 + 1][batch_idx2][index] \
-                                   + (1 - s) * t * cumulative_func[batch_idx1][batch_idx2 + 1][index] \
+                                   + s * (1 - t) * cumulative_func[batch_idx1][batch_idx2 + 1][index] \
+                                   + (1 - s) * t * cumulative_func[batch_idx1 + 1][batch_idx2][index] \
                                    + s * t * cumulative_func[batch_idx1 + 1][batch_idx2 + 1][index]
 
     return img0
