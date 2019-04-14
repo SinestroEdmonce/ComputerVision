@@ -21,7 +21,7 @@
         - *(Optional) Use low-pass filtering of CDFs.*
         - *Interpolate adjacent CDFs for final lookup.*  
         ***(Interploate adjacent CDFs as the picture shows below)***
-         <div align=center><img width="600" height="360" src="https://github.com/SinestroEdmonce/ComputerVision/raw/master/CV_Assignment_1/img/adaptively_local_hist_eq.jpg"/></div>
+         <div align=center><img width="600" height="300" src="https://github.com/SinestroEdmonce/ComputerVision/raw/master/CV_Assignment_1/img/adaptively_local_hist_eq.jpg"/></div>
         
 
 ## Expriments
