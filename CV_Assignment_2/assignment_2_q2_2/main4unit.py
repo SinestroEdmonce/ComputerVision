@@ -36,6 +36,9 @@ def generate_DoG(k, sigma=1.0):
     plt.title('Different of Gaussian')
     plt.legend()
 
+    # Save the figure
+    plt.savefig('./DoG.png', dpi=120)
+
     # Show the figure
     plt.show()
 

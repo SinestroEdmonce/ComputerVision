@@ -23,6 +23,9 @@ def generate_gaussian_2nd_derivative(sigma=1.0):
     plt.title('2nd Derivative of 1-D Gaussian')
     plt.legend()
 
+    # Save the figure
+    plt.savefig('./2nd-derivative.png', dpi=120)
+
     # Show the figure
     plt.show()
 
