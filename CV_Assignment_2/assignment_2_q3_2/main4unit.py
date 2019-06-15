@@ -102,6 +102,12 @@ def apply_edge_detector(diff_image):
 
 
 def main():
+    """"Function that is used to run this single unit program for testing or so.
+    Users can just run this module for some specific intentions.
+
+
+    :return:
+    """
     parser = parse.ArgumentParser()
     parser.add_argument('--image', '-i', type=str, default='./../resource/Lenna.png',
                         help='The path to the original image [Default: ./../resource/Lenna.png]')
@@ -137,6 +143,7 @@ def main():
     plt.title('Edge Detection by using zero-crossing',
               fontsize=8, fontweight='bold')
     plt.imshow(result, cmap='gray')
+    plt.axis('off')
     plt.savefig('./../results/edge-detection.png', dpi=400)
     plt.close('all')
 

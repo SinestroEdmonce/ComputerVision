@@ -142,6 +142,7 @@ class GaussPyramid:
         plt.title('Difference between the original and the last layer in the last octave',
                   fontsize=8, fontweight='bold')
         plt.imshow(gray_image, cmap='gray')
+        plt.axis('off')
         plt.savefig('./../results/difference-to-origin.png', dpi=400)
         plt.close('all')
 
