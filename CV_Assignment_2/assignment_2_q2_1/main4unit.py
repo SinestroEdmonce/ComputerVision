@@ -5,7 +5,7 @@ import argparse as parse
 
 
 def generate_gaussian_2nd_derivative(sigma=1.0):
-    """Function that is used to generate 2nd derivative of 1-D Gaussian
+    """Function that is used to generate 2nd derivative of 1-D Gaussian.
 
     :param sigma: float32, an object that represents sigma in Gaussian, a variance.
     :return:

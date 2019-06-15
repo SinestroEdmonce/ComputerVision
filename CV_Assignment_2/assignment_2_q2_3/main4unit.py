@@ -5,9 +5,9 @@ import argparse as parse
 
 
 def generate_gaussian_2nd_derivative(x_axis, sigma=1.0):
-    """Function that is used to generate 2nd derivative of 1-D Gaussian
+    """Function that is used to generate 2nd derivative of 1-D Gaussian.
 
-    :param x_axis: [float32], an object that stores the x coordinates
+    :param x_axis: [float32], an object that stores the x coordinates.
     :param sigma: float32, an object that represents sigma in Gaussian, a variance.
     :return:
     """
@@ -17,9 +17,9 @@ def generate_gaussian_2nd_derivative(x_axis, sigma=1.0):
 
 
 def generate_DoG(x_axis, k, sigma=1.0):
-    """Function that is used to generate image of DoG
+    """Function that is used to generate image of DoG.
 
-    :param x_axis: [float32], an object that stores the x coordinates
+    :param x_axis: [float32], an object that stores the x coordinates.
     :param k: float32, an object that represents the coefficient of sigma.
     :param sigma: float32, an object that represents sigma in Gaussian, a variance.
     :return:
@@ -40,7 +40,7 @@ def generate_DoG(x_axis, k, sigma=1.0):
 
 
 def compare_DoG_with_2nd_derivative(k, sigma=1.0):
-    """Function that is used to compare the DoG with 2nd derivative of 1-D Gaussian
+    """Function that is used to compare the DoG with 2nd derivative of 1-D Gaussian.
 
     :param k: float32, an object that represents the coefficient of sigma.
     :param sigma: float32, an object that represents sigma in Gaussian, a variance.

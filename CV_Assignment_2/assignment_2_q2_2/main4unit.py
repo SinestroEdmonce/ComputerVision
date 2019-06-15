@@ -5,7 +5,7 @@ import argparse as parse
 
 
 def generate_DoG(k, sigma=1.0):
-    """Function that is used to generate image of DoG
+    """Function that is used to generate image of DoG.
 
     :param k: float32, an object that represents the coefficient of sigma.
     :param sigma: float32, an object that represents sigma in Gaussian, a variance.
