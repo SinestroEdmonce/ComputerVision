@@ -37,7 +37,7 @@ def generate_DoG(k, sigma=1.0):
     plt.legend()
 
     # Save the figure
-    plt.savefig('./DoG.png', dpi=120)
+    plt.savefig('./../results/DoG.png', dpi=120)
 
     # Show the figure
     plt.show()
@@ -69,7 +69,7 @@ def main():
     generate_DoG(k=k, sigma=args.sigma)
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     main()
 
 

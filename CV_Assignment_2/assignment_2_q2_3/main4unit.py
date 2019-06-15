@@ -69,7 +69,7 @@ def compare_DoG_with_2nd_derivative(k, sigma=1.0):
     plt.legend()
 
     # Save the figure
-    plt.savefig('./comparison-DoG-2nd_derivative.png', dpi=120)
+    plt.savefig('./../results/comparison-DoG-2nd_derivative.png', dpi=120)
 
     # Show the figure
     plt.show()
@@ -101,7 +101,7 @@ def main():
     compare_DoG_with_2nd_derivative(k=k, sigma=args.sigma)
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     main()
 
 

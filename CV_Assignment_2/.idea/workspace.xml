@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1cfd185-9d83-4793-bce4-9dc74215fcf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment_2_q2_1/main4unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_2_q2_1/main4unit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment_2_q2_2/main4unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_2_q2_2/main4unit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_2_q2_3/comparison-DoG-2nd_Derivative.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_2_q2_3/main4unit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment_2_q2_3/main4unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_2_q2_3/main4unit.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment_2_q2_2/main4unit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="75">
+              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -31,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment_2_q2_1/main4unit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-67">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="173">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -53,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment_2_q2_3/main4unit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="250">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -78,9 +76,9 @@
         <option value="$PROJECT_DIR$/assignment_2_q2_2/__init__.py" />
         <option value="$PROJECT_DIR$/assignment_2_q2_1/__init__.py" />
         <option value="$PROJECT_DIR$/assignment_2_q2_3/__init__.py" />
-        <option value="$PROJECT_DIR$/assignment_2_q2_2/main4unit.py" />
-        <option value="$PROJECT_DIR$/assignment_2_q2_1/main4unit.py" />
         <option value="$PROJECT_DIR$/assignment_2_q2_3/main4unit.py" />
+        <option value="$PROJECT_DIR$/assignment_2_q2_1/main4unit.py" />
+        <option value="$PROJECT_DIR$/assignment_2_q2_2/main4unit.py" />
       </list>
     </option>
   </component>
@@ -138,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main4unit (1)">
+  <component name="RunManager" selected="Python.main4unit (3)">
     <configuration name="main4unit (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CV_Assignment_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,9 +223,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main4unit (1)" />
-        <item itemvalue="Python.main4unit (2)" />
         <item itemvalue="Python.main4unit (3)" />
+        <item itemvalue="Python.main4unit (2)" />
+        <item itemvalue="Python.main4unit (1)" />
         <item itemvalue="Python.main4unit" />
       </list>
     </recent_temporary>
@@ -250,15 +248,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20730738" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20730738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,30 +279,30 @@
     <entry file="file://$PROJECT_DIR$/assignment_2_q2_2/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignment_2_q2_1/2nd-derivative.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignment_2_q2_3/main4unit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="250">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment_2_q2_1/main4unit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="173">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment_2_q2_1/2nd-derivative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment_2_q2_2/main4unit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="75">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

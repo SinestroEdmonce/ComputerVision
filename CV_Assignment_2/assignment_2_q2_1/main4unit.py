@@ -24,7 +24,7 @@ def generate_gaussian_2nd_derivative(sigma=1.0):
     plt.legend()
 
     # Save the figure
-    plt.savefig('./2nd-derivative.png', dpi=120)
+    plt.savefig('./../results/2nd-derivative.png', dpi=120)
 
     # Show the figure
     plt.show()
@@ -50,5 +50,5 @@ def main():
     generate_gaussian_2nd_derivative(sigma=args.sigma)
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     main()
