@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1cfd185-9d83-4793-bce4-9dc74215fcf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assignment_2_q2_1/main4unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_2_q2_1/main4unit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_2_q2_2/main4unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_2_q2_2/main4unit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_2_q2_3/main4unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_2_q2_3/main4unit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment_2_q3_1/main4unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_2_q3_1/main4unit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/difference-to-origin.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/difference-to-origin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/gaussian-pyramid.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/gaussian-pyramid.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment_2_q3_1/main4unit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="174" column="41" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
+            <state relative-caret-position="272">
+              <caret line="145" column="24" selection-start-line="141" selection-start-column="8" selection-end-line="145" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignment_2_q3_2/main4unit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="139" column="44" selection-start-line="139" selection-start-column="44" selection-end-line="139" selection-end-column="44" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -30,8 +43,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/results/down-sampling.png">
+        <entry file="file://$PROJECT_DIR$/results/difference-to-origin.png">
           <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment_2_q3_1/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment_2_q3_3/main4unit.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -70,11 +93,15 @@
         <option value="$PROJECT_DIR$/assignment_2_q2_2/__init__.py" />
         <option value="$PROJECT_DIR$/assignment_2_q2_1/__init__.py" />
         <option value="$PROJECT_DIR$/assignment_2_q2_3/__init__.py" />
-        <option value="$PROJECT_DIR$/assignment_2_q3_1/__init__.py" />
         <option value="$PROJECT_DIR$/assignment_2_q2_1/main4unit.py" />
         <option value="$PROJECT_DIR$/assignment_2_q2_2/main4unit.py" />
         <option value="$PROJECT_DIR$/assignment_2_q2_3/main4unit.py" />
+        <option value="$PROJECT_DIR$/assignment_2_q3_2/__init__.py" />
+        <option value="$PROJECT_DIR$/assignment_2_q3_3/__init__.py" />
+        <option value="$PROJECT_DIR$/assignment_2_q3_3/main4unit.py" />
+        <option value="$PROJECT_DIR$/assignment_2_q3_1/__init__.py" />
         <option value="$PROJECT_DIR$/assignment_2_q3_1/main4unit.py" />
+        <option value="$PROJECT_DIR$/assignment_2_q3_2/main4unit.py" />
       </list>
     </option>
   </component>
@@ -234,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main4unit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main4unit (5)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CV_Assignment_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,11 +269,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment_2_q2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment_2_q3_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment_2_q2/main4unit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment_2_q3_2/main4unit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,10 +285,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main4unit (4)" />
+        <item itemvalue="Python.main4unit (5)" />
         <item itemvalue="Python.main4unit (3)" />
         <item itemvalue="Python.main4unit (2)" />
         <item itemvalue="Python.main4unit (1)" />
-        <item itemvalue="Python.main4unit" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +319,7 @@
       <window_info anchor="bottom" id="Find" order="4" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32876712" />
       <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.21917808" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3452055" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -324,34 +351,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assignment_2_q3_1/main4unit.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assignment_2_q3_1/main4unit.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assignment_2_q3_1/main4unit.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assignment_2_q3_1/main4unit.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assignment_2_q3_1/main4unit.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assignment_2_q3_1/main4unit.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/assignment_2_q3_2/main4unit.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -441,9 +443,6 @@
     <entry file="file://$PROJECT_DIR$/results/gaussian-pyramid0-1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/Lenna.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/results/gaussian-pyramid0-3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -459,12 +458,6 @@
     <entry file="file://$PROJECT_DIR$/results/gaussian-pyramid.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/difference-to-origin.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment_2_q3_1/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment_2_q2_3/main4unit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -475,10 +468,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignment_2_q3_3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment_2_q3_2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment_2_q3_1/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment_2_q3_3/main4unit.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/Lenna.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/difference-to-origin.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignment_2_q3_1/main4unit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="174" column="41" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
+        <state relative-caret-position="272">
+          <caret line="145" column="24" selection-start-line="141" selection-start-column="8" selection-end-line="145" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment_2_q3_2/main4unit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="139" column="44" selection-start-line="139" selection-start-column="44" selection-end-line="139" selection-end-column="44" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

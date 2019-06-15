@@ -6,7 +6,7 @@ import argparse as parse
 
 class GaussPyramid:
 
-    def __init__(self, img0, k, kernel_size=3, sigma=1.0, octave=3, layer=5):
+    def __init__(self, img0, k, kernel_size=3, sigma=1.0, octave=3, layer=5, color='rgb'):
         self.image = img0
         self.k = k
         self.ksize = kernel_size
@@ -14,9 +14,14 @@ class GaussPyramid:
         self.octave = octave
         self.layer = layer
         self.results = []
+        self.color = color
 
         # Size of the original image
-        self.height, self.width, self.channels = np.shape(img0)
+        if color == 'rgb':
+            self.height, self.width, self.channels = np.shape(img0)
+        # For gray only
+        else:
+            self.height, self.width = np.shape(img0)
 
         # Generate all matrices
         for idx1 in range(octave):
@@ -46,7 +51,13 @@ class GaussPyramid:
                 self.results[idx1].append(temp_image)
             else:
                 self.results[idx1].append(cv2.pyrDown(temp_image))
-                height, width, channels = np.shape(self.results[idx1][0])
+
+                # For RGB
+                if self.color == 'rgb':
+                    height, width, channels = np.shape(self.results[idx1][0])
+                # For gray only
+                else:
+                    height, width = np.shape(self.results[idx1][0])
                 self.results[idx1][0] = cv2.resize(self.results[idx1][0],
                                                    (int(height/2), int(width/2)),
                                                    cv2.INTER_LINEAR)
@@ -116,14 +127,16 @@ class GaussPyramid:
         reconstruct = cv2.resize(self.results[self.octave-1][self.layer-1],
                                  (self.height, self.width),
                                  cv2.INTER_LINEAR)
-        # Gaussian blurred Image
-        # temp_image = cv2.GaussianBlur(self.image, (self.ksize, self.ksize), self.sigma)
 
-        # Not apply the Gaussian blurred image, better
-        temp_image = self.image
+        # Gaussian blurred Image
+        if self.color == 'gray':
+            temp_image = cv2.GaussianBlur(self.image, (self.ksize, self.ksize), self.sigma)
+        else:
+            # Not apply the Gaussian blurred image, better
+            temp_image = self.image
 
         difference = np.abs(temp_image.astype(np.int) - reconstruct.astype(np.int)).astype(np.uint8)
-        gray_image = cv2.cvtColor(difference, cv2.COLOR_RGB2GRAY)
+        gray_image = cv2.cvtColor(difference, cv2.COLOR_RGB2GRAY) if self.color == 'rgb' else difference
 
         # Save the figure of down-sampling
         plt.title('Difference between the original and the last layer in the last octave',
@@ -134,6 +147,8 @@ class GaussPyramid:
 
         # Show all the picture
         # plt.show()
+
+        return temp_image.astype(np.int) - reconstruct.astype(np.int)
 
 
 def main():
@@ -173,7 +188,7 @@ def main():
     gauss_pyramid.generate_down_sampling()
 
     # Generate difference and its picture
-    gauss_pyramid.generate_difference()
+    _ = gauss_pyramid.generate_difference()
 
 
 if __name__ == '__main__':
