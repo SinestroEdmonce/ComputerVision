@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d1cfd185-9d83-4793-bce4-9dc74215fcf2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_2_q3_1/main4unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_2_q3_1/main4unit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_2_q3_2/main4unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_2_q3_2/main4unit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment_2_q3_3/main4unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_2_q3_3/main4unit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/difference-to-origin.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/difference-to-origin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/edge-detection.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/edge-detection.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment_2_q3_3/main4unit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="139" column="65" selection-start-line="139" selection-start-column="65" selection-end-line="139" selection-end-column="65" />
+            <state relative-caret-position="268">
+              <caret line="134" column="34" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -293,10 +289,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.33508772" side_tool="true" weight="0.20730738" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.6649123" visible="true" weight="0.20730738" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.6649123" visible="true" weight="0.20730738" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -304,7 +299,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.21917808" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.21917808" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3452055" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -500,8 +495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment_2_q3_3/main4unit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="139" column="65" selection-start-line="139" selection-start-column="65" selection-end-line="139" selection-end-column="65" />
+        <state relative-caret-position="268">
+          <caret line="134" column="34" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

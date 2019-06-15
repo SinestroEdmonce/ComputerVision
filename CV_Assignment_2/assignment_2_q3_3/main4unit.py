@@ -138,7 +138,7 @@ def main():
     parser.add_argument('--percent', '-p', type=float, default=0.1,
                         help='Determine the high threshold [Default: 0.8]')
     parser.add_argument('--ratio', '-l', type=float, default=0.05,
-                        help='Determine the low threshold [Default: 0.5]')
+                        help='Determine the low threshold [Default: 0.4]')
 
     args = parser.parse_args()
 
